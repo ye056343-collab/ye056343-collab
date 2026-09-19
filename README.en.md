@@ -81,7 +81,6 @@ I study resource allocation and decision-making in wireless systems, and enjoy c
 
 **Zhejiang University of Technology · Jianxing Honors College**  
 Undergraduate in Communication Engineering · September 2024 — Present  
-GPA **4.68 / 5** · Major rank **1 / 127** · IELTS **6.5**
 
 - **2026** · **Silver Award**, Shell AI + Energy competition
 - **2026** · First Prize, 中国高校智能机器人创意大赛
