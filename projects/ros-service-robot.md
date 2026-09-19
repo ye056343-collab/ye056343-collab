@@ -1,4 +1,4 @@
-[← 返回主页](../README.md) · [English](#english)
+[← 中文主页](../README.zh-CN.md) · [English](#english)
 
 # 智服小车：基于 ROS 的室内自主搬运服务机器人
 
@@ -32,6 +32,8 @@
 ---
 
 ## English
+
+[← Back to the English profile](../README.md)
 
 ### ROS indoor autonomous transport robot
 

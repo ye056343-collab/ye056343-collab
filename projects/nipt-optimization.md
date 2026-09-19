@@ -1,4 +1,4 @@
-[← 返回主页](../README.md) · [English](#english)
+[← 中文主页](../README.zh-CN.md) · [English](#english)
 
 # 基于分层与混合整数线性规划的 NIPT 检测时点优化
 
@@ -30,6 +30,8 @@
 ---
 
 ## English
+
+[← Back to the English profile](../README.md)
 
 ### NIPT testing-time optimization with stratification and MILP
 

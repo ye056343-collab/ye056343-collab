@@ -1,4 +1,4 @@
-[← 返回主页](../README.md) · [English](#english)
+[← 中文主页](../README.zh-CN.md) · [English](#english)
 
 # 壳牌 × 杭州 · AI能源大脑
 
@@ -44,6 +44,8 @@
 ---
 
 ## English
+
+[← Back to the English profile](../README.md)
 
 ### Shell × Hangzhou · AI Energy Brain
 

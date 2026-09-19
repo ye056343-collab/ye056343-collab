@@ -1,122 +1,108 @@
-<p align="right"><b>中文</b> · <a href="./README.en.md">English</a></p>
+<p align="right"><b>English</b> · <a href="./README.zh-CN.md">中文对照版</a></p>
 
 ![Pinyi Ye — Wireless intelligence, from models to systems](./assets/profile-banner.svg)
 
-# 你好，我是叶品驿 👋
+# Hi, I'm Pinyi Ye 👋
 
-**浙江工业大学 · 健行学院 · 通信工程本科生**  
-无线通信与边缘计算 · 深度强化学习 · 机器人系统
+**Communication Engineering undergraduate · Jianxing Honors College · Zhejiang University of Technology**  
+Wireless communications & edge computing · Deep reinforcement learning · Robotics
 
-我关注无线通信系统中的资源分配与决策问题，也喜欢把算法落到可运行的工程流程中。目前主要研究**流态天线赋能的无人机辅助移动边缘计算与安全传输**，并参与 ROS 机器人、AI 能源应用和数学建模项目。
+I study resource allocation and decision-making in wireless systems, and enjoy connecting algorithms with working engineering workflows. My current research focuses on **fluid antenna systems (FAS), UAV-assisted mobile edge computing, and secure transmission**, alongside hands-on work in ROS robotics, AI applications in energy, and mathematical modeling.
 
-[科研项目](#科研项目) · [工程实践](#工程实践) · [AI＋能源](#ai能源应用) · [数学建模](#数学建模) · [经历与荣誉](#经历与荣誉) · [联系我](#联系我)
+## Selected projects
 
-## 精选项目
+### 01 / Fluid antennas × UAV-assisted edge computing
 
-### 科研项目
-#### 01 / 流态天线 × 无人机边缘计算
-
-**独立项目负责人 · 2025.05 — 至今**  
+**Independent project lead · May 2025 — Present**  
 `Wireless Communications` `UAV-MEC` `FAS` `DDQN + PPO`
 
-围绕安全传输与边缘计算服务，研究无人机轨迹和通信计算资源如何协同决策。
+- Model antenna-port selection, task offloading, power control, time-slot allocation, and secure-transmission constraints within a joint optimization problem.
+- Design a DDQN–PPO framework for discrete resource and antenna-port decisions and continuous UAV trajectory decisions.
+- Analyze and visualize simulations using communication-link, secrecy-rate, and task-computation models.
 
-- **系统建模**：将流态天线端口选择、任务卸载、功率控制、时隙分配与安全传输约束纳入统一优化模型。
-- **算法设计**：设计 DDQN 与 PPO 联合优化框架，分别处理离散资源与端口决策、连续无人机轨迹决策。
-- **仿真分析**：结合通信链路、安全速率与任务计算模型，开展性能分析和结果可视化。
+[Project brief →](./projects/uav-mec.md#english) · [Public simulation code excerpt ↗](https://github.com/ye056343-collab/yep)
 
-[项目介绍 →](./projects/uav-mec.md) · [已公开的仿真脚本片段 ↗](https://github.com/ye056343-collab/yep)
+### 02 / ROS indoor service robot
 
-### 工程实践
-#### 02 / 智服小车 · ROS 室内自主搬运机器人
-
-**项目实践 · 2026.01 — 2026.08**  
+**Engineering project · January — August 2026**  
 `ROS` `Navigation` `AprilTag` `State Machine`
 
-把定位、导航、识别和抓取串成完整任务流程，让机器人完成室内物块自主搬运。
+- Integrate LiDAR mapping and localization, AprilTag recognition, and suction-based robotic-arm manipulation for indoor object transport.
+- Coordinate navigation, recognition, pick-and-place, and return-to-goal through a task state machine.
+- Address stopping accuracy and placement offsets through DWA and costmap tuning, arm homing calibration, and action-sequence adjustments.
 
-- **感知与执行**：集成激光雷达建图定位、AprilTag 标签识别和机械臂吸附抓取。
-- **任务编排**：通过状态机协调自主导航、目标识别、搬运放置与返回终点。
-- **现场调试**：围绕到位精度和放置偏差，开展 DWA 与代价地图参数整定、机械臂回零校准和动作顺序修正。
+🏆 First Prize, 中国高校智能机器人创意大赛 · 2026  
+[Project brief →](./projects/ros-service-robot.md#english)
 
-🏆 中国高校智能机器人创意大赛一等奖 · 2026  
-[项目介绍 →](./projects/ros-service-robot.md)
+### 03 / Shell × Hangzhou · AI Energy Brain
 
-### AI＋能源应用
-#### 03 / 壳牌 × 杭州 · AI能源大脑
-
-**团队项目 · 2026**  
+**Team competition project · 2026**  
 `AI for Energy` `Product Prototyping` `Charging Optimization` `Business Analysis`
 
-围绕“智选站点—到站充电—权益复充”，探索 AI 如何连接车主补能体验与场站经营决策。
+- Contributed to the AI solution design for demand and queue forecasting, station recommendations, rolling power optimization, and personalized membership benefits.
+- Contributed to a charging-service concept prototype connecting station selection, charging explanations, and membership engagement.
+- Participated in business analysis, a proposed 20-station pilot, ROI scenario modeling, presentation development, and pitching.
 
-- **AI 技术方案**：参与需求与排队预测、站点推荐、滚动功率优化和个性化权益的方案设计。
-- **产品原型**：参与充电服务小程序概念原型，将站点选择、充电解释与会员权益串联成可演示流程。
-- **商业与展示**：参与场景分析、20 站试点规划与 ROI 情景测算，以及 PPT 制作和路演。
+🥈 **Silver Award**, Shell AI + Energy competition · 2026  
+[Project brief →](./projects/shell-ai-energy.md#english) · [Concept demo ↗](https://hawk-knko.upma.site/)
 
-🥈 壳牌 AI＋能源比赛 **银奖** · 2026  
-[项目介绍 →](./projects/shell-ai-energy.md) · [体验概念原型 ↗](https://hawk-knko.upma.site/)
+### 04 / NIPT testing-time and grouping optimization
 
-### 数学建模
-#### 04 / NIPT 检测时点与分组优化
-
-**核心成员 · 2025.09 — 2025.11**  
+**Core team member · September — November 2025**  
 `Statistical Modeling` `MILP` `Machine Learning`
 
-从相关性分析出发，将 BMI 分组与检测时点选择转化为带约束的优化问题。
+- Use Spearman correlation, BMI stratification, and quadratic regression to study relationships between fetal Y-chromosome concentration, gestational age, and BMI.
+- Formulate a mixed-integer linear program for contiguous BMI groups and testing times, subject to minimum group size and timing constraints.
+- Apply logistic regression and random forests to female-fetus abnormality classification using chromosome Z-scores, sequencing-quality measures, and maternal features; evaluate with AUC, recall, and F1.
 
-- **统计分析**：使用 Spearman 相关性、BMI 分层与二次回归，分析 Y 染色体浓度、孕周和 BMI 的关系。
-- **优化建模**：以混合整数线性规划处理连续分组、最小样本量和检测时点范围等约束。
-- **分类评估**：融合染色体 Z 值、测序质量与母体特征，使用逻辑回归和随机森林，并以 AUC、Recall、F1 评估。
+🏆 National Second Prize, China Undergraduate Mathematical Contest in Modeling · 2025  
+[Project brief →](./projects/nipt-optimization.md#english)
 
-🏆 全国大学生数学建模竞赛国家二等奖 · 2025  
-[项目介绍 →](./projects/nipt-optimization.md)
+> **Public materials:** Project pages describe my experience and methods. The UAV-MEC repository currently contains a code excerpt, not a complete reproducible project. Robotics and modeling code, demos, and datasets are not provided here. The energy project provides a competition concept demo; pilot scale and ROI figures are planning assumptions.
 
-> **项目公开状态**：以上项目页为经历与方法介绍。UAV-MEC 仓库目前公开的是脚本片段，尚不构成完整可复现工程；机器人与数学建模项目尚未在此提供代码、演示或数据下载。AI 能源项目提供竞赛概念原型，试点规模与 ROI 属于方案测算。
+## Current interests
 
-## 当前关注
+- **Wireless and edge intelligence:** FAS, UAV-assisted MEC, and secure transmission.
+- **Hybrid decision problems:** joint discrete resource allocation and continuous trajectory control with deep reinforcement learning.
+- **Algorithms in systems:** simulation, visualization, and coordination across robot perception, navigation, and execution.
 
-- **无线通信与边缘智能**：流态天线、无人机辅助移动边缘计算、安全传输。
-- **混合决策优化**：离散资源分配与连续轨迹控制的联合建模和深度强化学习。
-- **从算法到系统**：仿真分析、结果可视化，以及机器人感知、导航、执行模块之间的协同。
+- **AI in energy:** charging-service prototypes that connect user experience with station operations.
 
-- **AI 能源应用**：充电服务原型、用户体验与场站运营决策的结合。
+## Tools & methods
 
-## 技术与工具
-
-| 领域 | 实践内容 |
+| Area | Experience |
 | :--- | :--- |
-| 编程与计算 | Python · MATLAB · C/C++ |
-| 建模与算法 | 数学建模 · 优化建模 · 机器学习 · DDQN · PPO |
-| 机器人 | ROS · AprilTag · DWA 调参 · 任务状态机 |
-| 分析与工程软件 | Origin · SPSS · Visio · AutoCAD · SolidWorks |
+| Programming | Python · MATLAB · C/C++ |
+| Modeling & algorithms | Mathematical modeling · Optimization · Machine learning · DDQN · PPO |
+| Robotics | ROS · AprilTag · DWA tuning · Task state machines |
+| Analysis & engineering tools | Origin · SPSS · Visio · AutoCAD · SolidWorks |
 
-## 经历与荣誉
+## Education & highlights
 
-**浙江工业大学 · 健行学院**  
-通信工程本科 · 2024.09 — 至今  
+**Zhejiang University of Technology · Jianxing Honors College**  
+Undergraduate in Communication Engineering · September 2024 — Present  
 
-- **2026** · 壳牌 AI＋能源比赛 **银奖**
-- **2026** · 中国高校智能机器人创意大赛 **一等奖**
-- **2026** · 美国大学生数学建模竞赛 **Honorable Mention**
-- **2025** · 全国大学生数学建模竞赛 **国家二等奖**
-- **2025** · 浙江省高等数学竞赛 **一等奖**
+- **2026** · **Silver Award**, Shell AI + Energy competition
+- **2026** · First Prize, 中国高校智能机器人创意大赛
+- **2026** · Honorable Mention, Mathematical Contest in Modeling
+- **2025** · National Second Prize, China Undergraduate Mathematical Contest in Modeling
+- **2025** · First Prize, Zhejiang Provincial Higher Mathematics Competition
 
 <details>
-<summary>其他荣誉</summary>
+<summary>Additional honors</summary>
 
-- 浙江省大学生物理（理论）创新竞赛三等奖 · 2024
-- 浙江工业大学大学物理竞赛三等奖 · 2025
-- 创新创业奖学金 · 2025
+- Third Prize, Zhejiang Provincial University Physics (Theory) Innovation Competition · 2024
+- Third Prize, ZJUT University Physics Competition · 2025
+- Innovation and Entrepreneurship Scholarship · 2025
 - 优云企业奖学金 · 2025
 
 </details>
 
-## 联系我
+## Connect
 
-欢迎交流**无线通信、强化学习、机器人系统与数学建模**，也期待相关科研与工程实践机会。
+I'm happy to discuss **wireless communications, reinforcement learning, robotics, and mathematical modeling**, including research and engineering opportunities.
 
 📫 [yepinyi@zjut.edu.cn](mailto:yepinyi@zjut.edu.cn) · [GitHub](https://github.com/ye056343-collab)
 
-💬 **微信**：`Yeovigor`（添加时请备注 GitHub）  
-📕 **[小红书 · 吟](https://xhslink.cn/o/2h8YnsbnMNE)** · 小红书号 `902102864`
+💬 **WeChat**: `Yeovigor` — please mention GitHub when adding me.  
+📕 **[Xiaohongshu / 小红书 · 吟](https://xhslink.cn/o/2h8YnsbnMNE)** · ID `902102864`

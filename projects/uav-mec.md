@@ -1,4 +1,4 @@
-[← 返回主页](../README.md) · [English](#english)
+[← 中文主页](../README.zh-CN.md) · [English](#english)
 
 # 流态天线赋能的无人机辅助移动边缘计算安全传输
 
@@ -38,6 +38,8 @@
 ---
 
 ## English
+
+[← Back to the English profile](../README.md)
 
 ### Secure UAV-assisted MEC with fluid antenna systems
 
