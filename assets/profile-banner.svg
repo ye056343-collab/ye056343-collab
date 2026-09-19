@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="title desc">
+  <title id="title">Pinyi Ye — Wireless intelligence, from models to systems</title>
+  <desc id="desc">A navy and teal profile banner with an abstract wireless network diagram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101e32"/><stop offset="1" stop-color="#163b49"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#44d8c0" stop-opacity=".12"/><stop offset="1" stop-color="#44d8c0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+  <circle cx="1085" cy="150" r="250" fill="url(#glow)"/>
+  <g stroke="#a4e3df" stroke-opacity=".07" fill="none">
+    <path d="M840 30V310M920 30V310M1000 30V310M1080 30V310M1160 30V310M1240 30V310"/>
+    <path d="M790 70H1260M790 150H1260M790 230H1260M790 310H1260"/>
+  </g>
+  <rect x="58" y="51" width="38" height="4" rx="2" fill="#64e5c9"/>
+  <text x="110" y="58" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3" fill="#a6d1d7">RESEARCH + ENGINEERING</text>
+  <text x="56" y="148" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-2" fill="#f5fbff">Pinyi Ye</text>
+  <text x="59" y="202" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#d1e4eb">Wireless intelligence, from models to systems.</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#c3dddF">
+    <text x="59" y="282">WIRELESS</text><circle cx="177" cy="276" r="3" fill="#64e5c9"/>
+    <text x="197" y="282">LEARNING</text><circle cx="317" cy="276" r="3" fill="#64e5c9"/>
+    <text x="337" y="282">ROBOTICS</text>
+  </g>
+  <g fill="none">
+    <ellipse cx="1064" cy="168" rx="156" ry="98" stroke="#95c5d7" stroke-opacity=".22" transform="rotate(-24 1064 168)"/>
+    <ellipse cx="1064" cy="168" rx="118" ry="71" stroke="#95c5d7" stroke-opacity=".14" transform="rotate(-24 1064 168)"/>
+    <path d="M918 227L1030 125L1174 212L1062 270L1030 125" stroke="#60ddc4" stroke-opacity=".58" stroke-width="1.5" stroke-dasharray="5 7"/>
+    <path d="M917 226Q975 48 1164 111" stroke="#74b9e9" stroke-width="2"/>
+    <circle cx="1030" cy="125" r="25" stroke="#64e5c9" stroke-opacity=".28"/>
+    <circle cx="1030" cy="125" r="39" stroke="#64e5c9" stroke-opacity=".12"/>
+  </g>
+  <g fill="#112c3b" stroke="#b9f4e6" stroke-width="2">
+    <circle cx="918" cy="227" r="7"/><circle cx="1174" cy="212" r="7"/><circle cx="1062" cy="270" r="7"/>
+  </g>
+  <circle cx="1030" cy="125" r="8" fill="#64e5c9"/>
+  <circle cx="1164" cy="111" r="5" fill="#83c6f1"/>
+  <text x="887" y="318" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="2.5" fill="#98bfcd">COMMUNICATION · DECISION · ACTION</text>
+</svg>
