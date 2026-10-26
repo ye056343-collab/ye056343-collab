@@ -11,18 +11,7 @@ I study resource allocation and decision-making in wireless systems, and enjoy c
 
 ## Selected projects
 
-### 01 / Fluid antennas × UAV-assisted edge computing
-
-**Independent project lead · May 2025 — Present**  
-`Wireless Communications` `UAV-MEC` `FAS` `DDQN + PPO`
-
-- Model antenna-port selection, task offloading, power control, time-slot allocation, and secure-transmission constraints within a joint optimization problem.
-- Design a DDQN–PPO framework for discrete resource and antenna-port decisions and continuous UAV trajectory decisions.
-- Analyze and visualize simulations using communication-link, secrecy-rate, and task-computation models.
-
-[Project brief →](./projects/uav-mec.md#english) · [Public simulation code excerpt ↗](https://github.com/ye056343-collab/yep)
-
-### 02 / ROS indoor service robot
+### 01 / ROS indoor service robot
 
 **Engineering project · January — August 2026**  
 `ROS` `Navigation` `AprilTag` `State Machine`
@@ -34,7 +23,7 @@ I study resource allocation and decision-making in wireless systems, and enjoy c
 🏆 First Prize, 中国高校智能机器人创意大赛 · 2026  
 [Project brief →](./projects/ros-service-robot.md#english)
 
-### 03 / Shell × Hangzhou · AI Energy Brain
+### 02 / Shell × Hangzhou · AI Energy Brain
 
 **Team competition project · 2026**  
 `AI for Energy` `Product Prototyping` `Charging Optimization` `Business Analysis`
@@ -46,7 +35,7 @@ I study resource allocation and decision-making in wireless systems, and enjoy c
 🥈 **Silver Award**, Shell AI + Energy competition · 2026  
 [Project brief →](./projects/shell-ai-energy.md#english) · [Concept demo ↗](https://hawk-knko.upma.site/)
 
-### 04 / NIPT testing-time and grouping optimization
+### 03 / NIPT testing-time and grouping optimization
 
 **Core team member · September — November 2025**  
 `Statistical Modeling` `MILP` `Machine Learning`
@@ -58,7 +47,7 @@ I study resource allocation and decision-making in wireless systems, and enjoy c
 🏆 National Second Prize, China Undergraduate Mathematical Contest in Modeling · 2025  
 [Project brief →](./projects/nipt-optimization.md#english)
 
-> **Public materials:** Project pages describe my experience and methods. The UAV-MEC repository currently contains a code excerpt, not a complete reproducible project. Robotics and modeling code, demos, and datasets are not provided here. The energy project provides a competition concept demo; pilot scale and ROI figures are planning assumptions.
+> **Public materials:** Project pages describe my experience and methods. Robotics and modeling code, demos, and datasets are not provided here. The energy project provides a competition concept demo; pilot scale and ROI figures are planning assumptions.
 
 ## Current interests
 
